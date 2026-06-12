@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/ifood-mcp",
+  "title": "iFood",
+  "description": "Insights for your iFood store right in your AI assistant's chat. Generate charts of sales and payout",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/ifood-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_ifood"
+    }
+  ]
+}
